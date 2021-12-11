@@ -30,6 +30,6 @@ public class MortgageCalculator {
 
         String mortgageFormat = NumberFormat.getCurrencyInstance().format(mortgage);
 
-        System.out.print("Mortgage : " +mortgageFormat);
+        System.out.print("Mortgage : " +mortgageFormat); 
     }
 }

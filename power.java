@@ -18,7 +18,7 @@ public class Main
 {
     public double power(double a,int m) {
         int i;
-        double p=1.00000;
+        double p=1.0;
         if(m<0) {
             m=-m;
             a=1/a;

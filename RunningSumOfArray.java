@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.*;
 public class Main
 {
-    public int[] duplicateElements(int[] a,int n) {
+    public int[] sumOfElements(int[] a,int n) {
         int[] b=new int[n];
         int sum=0,i;
         for(i=0;i<n;i++) {
@@ -22,6 +22,6 @@ public class Main
 		    a[i]=s.nextInt();
 		}
 		Main obj=new Main();
-		obj.duplicateElements(a,n);
+		obj.sumOfElements(a,n);
 	}
 }
